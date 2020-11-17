@@ -2,7 +2,7 @@
 
 This is the companion repo for [*Angular Testing Succinctly*](https://www.syncfusion.com/ebooks) by Joseph D. Booth. Published by Syncfusion.
 
-[![cover](https://github.com/SyncfusionSuccinctlyE-Books/Angular-Testing-Succinctly/blob/master/cover.png)](https://www.syncfusion.com/ebooks)
+[![cover](https://github.com/SyncfusionSuccinctlyE-Books/Angular-Testing-Succinctly/blob/main/cover.png)](https://www.syncfusion.com/ebooks)
 
 ## Looking for more _Succinctly_ titles?
 
