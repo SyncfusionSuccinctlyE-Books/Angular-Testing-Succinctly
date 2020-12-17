@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 94vh;
+  flex-direction: column;
+  margin: 5px;
+  border:10px solid transparent;
+  padding:0px;
+  overflow-y:hidden;
+}
+#main {
+  display: flex;
+  flex: 1; 
+}
+#main > article {
+  flex: 1;
+  height:75vh;
+}
+#main > nav {
+  flex: 0 0 28vw;
+  background: beige;
+  text-align: center;
+}
+header, footer, article, nav {
+  padding: 0em;
+}
+header, footer {
+  background: #35B234;
+  color: #ffffff;
+  height: 6vh;
+  font-size:x-large;
+  margin-bottom:2px;
+  padding-top:1vh;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+  padding-left:0px;
+}
+li {
+  font-size:x-large;
+  text-align:left;
+  padding-left:2vw;
+  padding-bottom: 2vh;
+}
+a {
+  text-decoration: none;
+}
+.ATMScreen {
+    border:8px solid black;
+    padding:5vh;
+    margin:5vh;
+    border-radius:35px;
+    height:68vh;
+    background-color: cyan;
+    font-size:x-large;
+    color:black;
+}

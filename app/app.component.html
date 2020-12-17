@@ -1,0 +1,20 @@
+<!doctype html>
+<title>Baby Bank</title>
+<body>
+  <header>Baby Bank</header>
+  <div id="main">
+    <article>
+      <div class="ATMScreen" >
+      <router-outlet></router-outlet>
+      </div>
+    </article>
+    <nav>
+      <ul id='menu'>
+      <li><a id='deposit' routerLink="/deposit">+ Deposit funds</a></li>
+      <li><a id='withdraw' routerLink="/withdrawal">- Withdraw cash</a></li>
+      <li><a id='transfer'routerLink="/transfer">&#8633; Transfer funds</a></li>
+      </ul>      
+    </nav>
+  </div>
+  <footer>Your money is safe with us!</footer>
+</body>
